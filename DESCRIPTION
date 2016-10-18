@@ -81,6 +81,7 @@ Collate:
     'formats_firehoseGeneExpression.R'
     'formats_firehoseJunctionQuantification.R'
     'formats_firehoseMergeClinical.R'
+    'formats_inclusionLevels.R'
     'groups.R'
     'settings.R'
 biocViews: Sequencing, RNASeq, AlternativeSplicing, DifferentialSplicing,
