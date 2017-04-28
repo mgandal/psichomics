@@ -1,4 +1,7 @@
-# psichomics [![Build Status][8]][9] [![AppVeyor Build Status][10]][11] [![codecov][12]][13]
+# psichomics
+
+[![Build Status][8]][9] [![AppVeyor Build Status][10]][11] [![codecov][12]][13]
+
 Interactive R package with a Shiny-based graphical interface for the
 quantification, analysis and visualisation of alternative splicing data from
 [The Cancer Genome Atlas (TCGA)][1] or the

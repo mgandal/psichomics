@@ -1,0 +1,90 @@
+reference:
+  - title: "Start the visual interface"
+    contents:
+      - psichomics
+  - title: "Download and load data"
+    contents:
+      - getDownloadsFolder
+      - loadLocalFiles
+      - isFirebrowseUp
+      - getFirebrowseDataTypes
+      - starts_with("getFirebrowse")
+      - loadFirebrowseData
+      - getSplicingEventTypes
+      - listSplicingAnnotations
+      - loadAnnotation
+      - quantifySplicing
+  - title: "Parse splicing events"
+    contents:
+      - parseSplicingEvent
+      - parseMatsAnnotation
+      - parseMisoAnnotation
+      - parseVastToolsAnnotation
+      - parseSuppaAnnotation
+      - prepareAnnotationFromEvents
+  - title: "Grouping"
+    contents:
+      - createGroupByAttribute
+      - getPatientFromSample
+      - getMatchingSamples
+      - groupPerPatient
+      - groupPerSample
+      - parseSampleGroups
+  - title: "Survival analysis"
+    contents:
+      - getColumnsTime
+      - getPSIperPatient
+      - optimalPSIcutoff
+      - labelBasedOnCutoff
+      - processSurvTerms
+      - survfit.survTerms
+      - survdiff.survTerms
+      - plotSurvivalCurves
+      - testSurvival
+  - title: "Principal component analysis (PCA)"
+    contents:
+      - performPCA
+      - plotPCA
+      - plotVariance
+  - title: "Differential splicing analysis"
+    contents:
+      - diffAnalyses
+      - filterGroups
+      - plotDistribution
+  - title: "Gene, transcript and protein information"
+    contents:
+      - queryEnsemblByGene
+      - queryEnsemblByEvent
+      - ensemblToUniprot
+      - plotTranscripts
+      - plotProtein
+  - title: "Developer reference"
+    desc: "Internal functions for developing psichomics"
+    contents:
+      - insideFile
+      - escape
+      - is.whole
+      - trimWhitespace
+      - processButton
+      - startProcess
+      - endProcess
+      - styleModal
+      - errorModal
+      - warningModal
+      - infoModal
+      - showAlert
+      - errorAlert
+      - warningAlert
+      - removeAlert
+      - errorDialog
+      - startProgress
+      - updateProgress
+      - closeProgress
+      - roundDigits
+      - signifDigits
+      - enableTab
+      - disableTab
+      - textSuggestions
+      - export_highcharts
+      - hc_scatter
+      - setOperationIcon

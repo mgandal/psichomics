@@ -5,7 +5,7 @@ Version: 1.2.1
 Encoding: UTF-8
 Authors@R: c( person("Nuno", "Saraiva-Agostinho", ,
         "nunodanielagostinho@gmail.com", role = c("aut", "cre")),
-        person("Nuno", "Barbosa-Morais", role=c("aut", "led", "ths")),
+        person("Nuno L.", "Barbosa-Morais", role=c("aut", "ths")),
         person("André", "Falcão", role="ths"), person("Lina",
         "Gallego Paez", role="ctb"), person("Marie", "Bordone",
         role="ctb"), person("Teresa", "Maia", role="ctb"),
